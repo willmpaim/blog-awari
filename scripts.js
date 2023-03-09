@@ -17,14 +17,16 @@ const posts = [
 
 const wrapper = document.getElementById("posts");
 
-///for (let i = 0; i < posts.length; i++) 
-
     posts.forEach(createArticle);
 
 function createArticle(post) {
 
     const article = document.createElement("article");
+    article.classList.add("post");
+
     const title = document.createElement("h1");
+    title.classList.add("post-title");
+    
     const titleText = document.createTextNode(post.title);
     title.appendChild(titleText);
     article.appendChild(title);;

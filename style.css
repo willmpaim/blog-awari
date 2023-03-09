@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: gray;
+    /* System Fonts as used by GitHub */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.post {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.post-title {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
